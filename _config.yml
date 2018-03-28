@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "SWC - Intro to Shell, Git, and R - BIDS, 06-11-2018"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: diyadas@berkeley.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
