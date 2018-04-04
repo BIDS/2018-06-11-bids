@@ -141,6 +141,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
+<p>Here is a map of the first floor of Doe Library with restrooms and the accessible entrance marked, from BIDS:
+<br><img src="files/doe-floorplan-1.jpg">
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
