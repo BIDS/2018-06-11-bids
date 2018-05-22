@@ -14,7 +14,7 @@ instructor: ["Diya Das", "Rebecca Barter", "Richard Barnes"] # boxed, comma-sepa
 helper: ["Jenna Baughman", "Caroline Cypranowska"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["diyadas@berkeley.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 45700829411          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -37,6 +37,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+<h2>Registration</h2>
+<h4>This workshop is one of three workshops offered at BIDS. Please register for only one, as space is limited.</h4>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
@@ -45,10 +47,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h2>Registration coming soon!</h2>
-<p>Registration is required for this workshop. When registration opens, it will be announced via <a href="https://bids.berkeley.edu/join-bids-mailing-list">the BIDS mailing list</a>. We are unfortunately unable to manage registrations via any other mechanisms.</p>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
