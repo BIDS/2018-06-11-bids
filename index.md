@@ -39,7 +39,8 @@ eventbrite: 45700829411          # optional: alphanumeric key for Eventbrite reg
 {% endcomment %}
 {% if page.eventbrite %}
 <h2>Registration</h2>
-<h4>This workshop is one of three workshops offered at BIDS. Please register for only one, as space is limited.</h4>
+<p>This workshop is one of three workshops offered at BIDS. Please <b>register for only one</b>, as space is limited.</p> <h4>Registration is mandatory for attendance. 
+We are unable to accept participants who do not have a ticket (i.e. no drop-ins). </h4>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
